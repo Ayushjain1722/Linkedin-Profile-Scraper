@@ -10,6 +10,32 @@ Steps Involved:
 4. Finally put the output as a JSON file which the user can download.
 
 
+
+UI Screenshots:
+
+
+
+GIF showing the process for a dummy profile link:
+
+
+
+Input example:
+
+Output example: 
+
+
+
+Challenges:
+1.
+2.
+3.
+
+
+Course(s) Undertaken for this project / References:
+1. JetBrains NLP Project: Web Scraping using BeautifulSoup (~20 hours project for scraping news articles from a website).
+2. BeautifulSoup Documentation
+
+
 Recommended Requirements:
 1. Good internet conection (about 1 Mbps speed)
 
