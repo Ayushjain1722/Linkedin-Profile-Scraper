@@ -30,6 +30,11 @@ Challenges:
 2.
 3.
 
+Future Scope:
+1. Check for corner case such as wrong user credentials.
+2. Extend for different types of browser instead of just Google Chrome.
+3. Allow user to input multiple Profile links and output them in a single file.
+
 
 Course(s) Undertaken for this project / References:
 1. JetBrains NLP Project: Web Scraping using BeautifulSoup (~20 hours project for scraping news articles from a website).
