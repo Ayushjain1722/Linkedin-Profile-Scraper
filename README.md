@@ -3,6 +3,14 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 
 Welcome to the Linkedin Profile Scraper!
 
+
+Novelty:
+
+
+Technologies Used: 
+1.
+
+
 Steps Involved:
 1. Input user's credentials for Linkedin signIn. 
 2. After successful login, user will be asked to enter the URL for the profile that he/she wishes to scrape. 
