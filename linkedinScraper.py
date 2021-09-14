@@ -7,14 +7,16 @@ import json
 
 def signIn():
     CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-    chrome_bin  = os.environ.get('GOOGLE_CHROME_BIN', "controller")
+    chrome_bin  = os.environ.get('GOOGLE_CHROME_SHIM', None)
     
     chrome_options = webdriver.ChromeOptions()
     chrome_options.binary_location = chrome_bin
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
-
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--remote-debugging-port=9222')
+    chrome_options.add_argument('--disable-infobars')
     browser = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
 
     browser.maximize_window()
