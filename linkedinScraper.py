@@ -6,16 +6,16 @@ from bs4 import BeautifulSoup
 import json
 
 def signIn():
-    GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
     CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+    chrome_bin  = os.environ.get('GOOGLE_CHROME_BIN', "controller")
     
     chrome_options = webdriver.ChromeOptions()
+    chrome_options.binary_location = chrome_bin
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
-    chrome_options.binary_location = GOOGLE_CHROME_PATH
-    
+    chrome_options.add_argument('--headless')
 
-    browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+    browser = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
 
     browser.maximize_window()
     browser.get('https://www.linkedin.com/uas/login')
