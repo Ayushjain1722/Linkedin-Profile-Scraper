@@ -2,4 +2,4 @@ requests==2.24.0
 Flask==0.12.2
 selenium==3.141.0
 beautifulsoup4==4.10.0
-gunicorn===<latest-version>
+gunicorn
