@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import json
 
 def signIn():
-    browser = webdriver.Chrome('.\driver\chromedriver')
+    browser = webdriver.Chrome('driver/chromedriver')
     browser.maximize_window()
     browser.get('https://www.linkedin.com/uas/login')
     while('feed' not in browser.current_url):
