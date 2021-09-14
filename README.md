@@ -3,6 +3,14 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 
 Welcome to the Linkedin Profile Scraper!
 
+
+Novelty:
+
+
+Technologies Used: 
+1.
+
+
 Steps Involved:
 1. Input user's credentials for Linkedin signIn. 
 2. After successful login, user will be asked to enter the URL for the profile that he/she wishes to scrape. 
@@ -29,6 +37,11 @@ Challenges:
 1.
 2.
 3.
+
+Future Scope:
+1. Check for corner case such as wrong user credentials.
+2. Extend for different types of browser instead of just Google Chrome.
+3. Allow user to input multiple Profile links and output them in a single file.
 
 
 Course(s) Undertaken for this project / References:
