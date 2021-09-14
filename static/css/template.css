@@ -1,0 +1,15 @@
+.center{
+  color: white; 
+  font-family: "Pacifico", cursive;
+  position:absolute; 
+  top:40%; 
+  left:33%; 
+};
+
+.centerButton{
+  color: blue;
+  font-family: "Pacifico", cursive;
+  position: absolute;
+  top:50%;
+  left:40%;
+}

@@ -42,3 +42,4 @@ Recommended Requirements:
 Minimum Requirements:
 1. Chrome browser
 2. Internet connection (about 2-3 Mbps speed)
+3. A working LinkedIn Account
