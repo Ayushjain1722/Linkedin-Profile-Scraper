@@ -50,7 +50,17 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 
 ## GIF showing the process for a dummy profile link:
 
+### Input the URL to the LinkedIn Profile
 
+![Video-1](https://user-images.githubusercontent.com/42894689/133324057-d0e43ec3-7a01-49e6-85f6-02315a2d47b3.gif)
+
+### Click on the submit button
+
+![Video-2](https://user-images.githubusercontent.com/42894689/133324338-0d170721-5b98-4cd8-8fa6-f97d73090414.gif)
+
+### Sign In to you LinkedIn profile. (Sometimes may also need to complete a security check). Then the scraper will look through the profile and get the important information.
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/42894689/133325422-eb0785c4-d1e0-4411-9ab2-1308098ad04f.gif)
 
 ## Input example:
 
