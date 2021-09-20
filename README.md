@@ -5,10 +5,12 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 
 
 ## Novelty:
-1. Designed the Frontend and backend for the complete project.
-2. Generation of dataset in terms of different fields/categories as obtained from the Profile.
-3. Can be used as a micro-service which can fetch data in an analysis software where different profiles are gathered and can be analysed.
-4. Can save the data for different persons as csv/JSON files. This can be connected to any database where the data can be stored on the cloud as well.
+1. Can obtain results for multiple profiles.
+2. Designed the Frontend and backend for the complete project.
+3. Generation of dataset in terms of different fields/categories as obtained from the Profile.
+4. Can be used as a micro-service which can fetch data in an analysis software where different profiles are gathered and can be analysed.
+5. Can save the data for different persons as csv/JSON files. This can be connected to any database where the data can be stored on the cloud as well.
+6. Get the results sheet as an email.
 
 ## Technologies Used: 
 1. Flask (Backend) 
@@ -41,6 +43,9 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 3. The scraper will then gather the data for various fields.
 4. Finally put the output as a csv file which the user can download.
 
+## Flowchart Methodology:
+
+![image](https://user-images.githubusercontent.com/42894689/133962355-82834c1d-b787-4a42-ba7a-02cf24e1686b.png)
 
 
 ## UI Screenshots:
@@ -61,6 +66,15 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 ### Sign In to you LinkedIn profile. (Sometimes may also need to complete a security check). Then the scraper will look through the profile and get the important information.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/42894689/133325422-eb0785c4-d1e0-4411-9ab2-1308098ad04f.gif)
+
+### Get the results of the scraped files via email
+
+![image](https://user-images.githubusercontent.com/42894689/133963802-efdbafba-c7ff-4fa9-b756-d0f7237536b7.png)
+
+### Success Page
+
+![image](https://user-images.githubusercontent.com/42894689/133963936-c5623525-2e74-4161-a0f0-671f02705e2f.png)
+
 
 ## Input example:
 
