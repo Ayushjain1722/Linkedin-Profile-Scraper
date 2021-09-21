@@ -3,6 +3,9 @@ Small Description: This is a service that scrapes a given linkedin profile for d
 
 ## Welcome to the Linkedin Profile Scraper!
 
+## Live Link
+
+https://linkedin-profile-scraper.herokuapp.com/
 
 ## Novelty:
 1. Can obtain results for multiple profiles.
